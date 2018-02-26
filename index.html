@@ -39,14 +39,14 @@
 }
 </style>
 </head>
-<body>
+<body onLoad = "populateTable();">
 
 <h2>Jam Songs</h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for songs..." title="Music let's gooo">
+<input type="text" id="myInput" onkeyup="testAdd()" placeholder="Search for songs..." title="Music let's gooo">
 
 <table id="myTable">
-  <tr class="header">
+  <tr class="header" id = "top">
     <th style="width:40%;">Song Name</th>
     <th style="width:20%;">Links</th>
     <th style="width:40%;">Artist</th>
@@ -94,7 +94,7 @@
     <td>The White Stripes</td>
   </tr>
 
-  <tr>
+  <tr id = "last">
     <td>Lovefool</td>
     <td> <a href="https://tabs.ultimate-guitar.com/tab/the_cardigans/lovefool_chords_1869718">Chords</a> <a href="https://genius.com/The-cardigans-lovefool-lyrics">Lyrics</a> </td>
     <td>The Cardigans</td>
@@ -120,6 +120,17 @@ function myFunction() {
       }
     }       
   }
+}
+
+function populateTable(){
+  for(i = 0; i < 3; i++){
+    var insert = document.getElementById("last");
+    var newRow = insert.parentNode.insertRow(insert.rowIndex + 1);
+    newRow.insertCell(0).innerHTML = i.toString();
+    newRow.insertCell(1).innerHTML = i.toString();
+    newRow.insertCell(2).innerHTML = i.toString();
+  }
+  
 }
 </script>
 
