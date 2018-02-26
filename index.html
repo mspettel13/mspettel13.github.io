@@ -43,7 +43,7 @@
 
 <h2>Jam Songs</h2>
 
-<input type="text" id="myInput" onkeyup="testAdd()" placeholder="Search for songs..." title="Music let's gooo">
+<input type="text" id="myInput" onkeyup="updateSearch();" placeholder="Search for songs..." title="Music let's gooo">
 
 <table id="myTable">
   <tr class="header" id = "top">
@@ -102,7 +102,7 @@
 </table>
 
 <script>
-function myFunction() {
+function updateSearch() {
   var input, filter, table, tr, td, i;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
