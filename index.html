@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Jam Songs</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for songs..." title="Music let's gooo">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:40%;">Song Name</th>
+    <th style="width:20%;">Links</th>
+    <th style="width:40%;">Artist</th>
+  </tr>
+
+  <tr>
+    <td>House of Memories</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/house_of_memories_chords_1803217">Chords</a> <a href="https://genius.com/Panic-at-the-disco-house-of-memories-lyrics">Lyrics</a> </td>
+    <td>Panic! At the Disco</td>
+  </tr>
+
+  <tr>
+    <td>Thanks for the Memories</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/fall_out_boy/thnks_fr_th_mmrs_chords_1000393">Chords</a> <a href="https://genius.com/Fall-out-boy-thnks-fr-th-mmrs-lyrics">Lyrics</a> </td>
+    <td>Fall Out Boy</td>
+  </tr>
+
+  <tr>
+    <td>Death of a Bachelor</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/death_of_a_bachelor_chords_1764430">Chords</a> <a href="https://genius.com/Panic-at-the-disco-death-of-a-bachelor-lyrics">Lyrics</a> </td>
+    <td>Panic! At the Disco</td>
+  </tr>
+
+  <tr>
+    <td>Vida La Vida</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/coldplay/viva_la_vida_chords_675427">Chords</a> <a href="https://genius.com/Coldplay-viva-la-vida-lyrics">Lyrics</a> </td>
+    <td>Coldplay</td>
+  </tr>
+
+  <tr>
+    <td>Pokerface</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/lady_gaga/poker_face_chords_810048">Chords</a> <a href="https://genius.com/Lady-gaga-poker-face-lyrics">Lyrics</a> </td>
+    <td>Lady Gaga</td>
+  </tr>
+
+  <tr>
+    <td>Lola</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_kinks/lola_chords_1058291">Chords</a> <a href="https://genius.com/The-kinks-lola-lyrics">Lyrics</a> </td>
+    <td>The Kinks</td>
+  </tr>
+
+  <tr>
+    <td>Seven Nation Army</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_white_stripes/seven_nation_army_chords_52559">Chords</a> <a href="https://genius.com/The-white-stripes-seven-nation-army-lyrics">Lyrics</a> </td>
+    <td>The White Stripes</td>
+  </tr>
+
+  <tr>
+    <td>Lovefool</td>
+    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_cardigans/lovefool_chords_1869718">Chords</a> <a href="https://genius.com/The-cardigans-lovefool-lyrics">Lyrics</a> </td>
+    <td>The Cardigans</td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    songName = tr[i].getElementsByTagName("td")[0];
+    artistName = tr[i].getElementsByTagName("td")[2];
+    if (songName || artistName) {
+      if ((songName.innerHTML.toUpperCase().indexOf(filter) > -1) || 
+        (artistName.innerHTML.toUpperCase().indexOf(filter) > -1)) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+</body>
+</html>
