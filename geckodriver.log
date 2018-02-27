@@ -810,3 +810,37 @@ IPDL protocol error: Handler returned error code!
 [Parent 60960, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 JavaScript error: https://assets.genius.com/javascripts/compiled/ads-d77f0bc3133d65d4a57c.js, line 10: TypeError: this.resolvers.get(...) is not a function
 [Child 43624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1519707191562	geckodriver	INFO	geckodriver 0.19.1
+1519707191570	geckodriver	INFO	Listening on 127.0.0.1:59945
+1519707194680	mozrunner::runner	INFO	Running command: "C:/Program Files/Mozilla Firefox/firefox.exe" "-marionette" "-profile" "C:\\Users\\mspet\\AppData\\Local\\Temp\\rust_mozprofile.HdbDuHULNiYw"
+Unable to read VR Path Registry from C:\Users\mspet\AppData\Local\openvr\openvrpaths.vrpath
+1519707196185	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\mspet\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mspet\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mspet\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\mspet\AppData\Local\openvr\openvrpaths.vrpath
+1519707198067	Marionette	INFO	Listening on port 59953
+1519707198300	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript error: https://genius.com/Poets-of-the-fall-carnival-of-rust-lyrics, line 13: SecurityError: Permission denied to access property "clearTimeout" on cross-origin object
+JavaScript error: https://assets.genius.com/javascripts/compiled/ads-5c82e12ff653887059b7.js, line 10: TypeError: this.resolvers.get(...) is not a function
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.44/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(00000205100E3800)::ForceLoseContext
+JavaScript warning: https://cdn-ssl.vidible.tv/prod/ad-client/js/2.2.44/0.js, line 19: Error: WebGL warning: Exceeded 16 live WebGL contexts for this principal, losing the least recently used one.
+WebGL(00000205130E9000)::ForceLoseContext
+[Parent 22296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 22296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 66996, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 66996, Chrome_ChildThread] WARNIN[Child 45308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 45308, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 72464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 72464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 48372, Chrome_C
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
