@@ -39,66 +39,131 @@
 }
 </style>
 </head>
-<body onLoad = "populateTable();">
+<body>
 
 <h2>Jam Songs</h2>
 
-<input type="text" id="myInput" onkeyup="updateSearch();" placeholder="Search for songs..." title="Music let's gooo">
+<input type="text" id="myInput" onkeyup = "updateSearch();" placeholder="Search for songs..." title="Music let's gooo">
 
 <table id="myTable">
   <tr class="header" id = "top">
-    <th style="width:40%;">Song Name</th>
+    <th style="width:80%;">Song Name</th>
     <th style="width:20%;">Links</th>
-    <th style="width:40%;">Artist</th>
   </tr>
 
-  <tr>
-    <td>House of Memories</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/house_of_memories_chords_1803217" target = "_blank">Chords</a> <a href="https://genius.com/Panic-at-the-disco-house-of-memories-lyrics">Lyrics</a> </td>
-    <td>Panic! At the Disco</td>
-  </tr>
+<tr>
+ <td>House of Memories</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/house_of_memories_chords_1803217" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-house-of-memories-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Thanks for the Memories</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/fall_out_boy/thnks_fr_th_mmrs_chords_1000393">Chords</a> <a href="https://genius.com/Fall-out-boy-thnks-fr-th-mmrs-lyrics">Lyrics</a> </td>
-    <td>Fall Out Boy</td>
-  </tr>
+<tr>
+ <td>Thanks for the Memories</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/fall_out_boy/thnks_fr_th_mmrs_chords_1776691" target = "_blank">Chords</a> <a href = "https://genius.com/Fall-out-boy-thnks-fr-th-mmrs-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Death of a Bachelor</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/death_of_a_bachelor_chords_1764430">Chords</a> <a href="https://genius.com/Panic-at-the-disco-death-of-a-bachelor-lyrics">Lyrics</a> </td>
-    <td>Panic! At the Disco</td>
-  </tr>
+<tr>
+ <td>Death of a Bachelor</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/death_of_a_bachelor_chords_1764430" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-death-of-a-bachelor-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Vida La Vida</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/coldplay/viva_la_vida_chords_675427">Chords</a> <a href="https://genius.com/Coldplay-viva-la-vida-lyrics">Lyrics</a> </td>
-    <td>Coldplay</td>
-  </tr>
+<tr>
+ <td>Viva La Vida</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/coldplay/viva_la_vida_chords_675427" target = "_blank">Chords</a> <a href = "https://genius.com/Coldplay-viva-la-vida-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Pokerface</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/lady_gaga/poker_face_chords_810048">Chords</a> <a href="https://genius.com/Lady-gaga-poker-face-lyrics">Lyrics</a> </td>
-    <td>Lady Gaga</td>
-  </tr>
+<tr>
+ <td>Poker Face</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/lady_gaga/poker_face_chords_810048" target = "_blank">Chords</a> <a href = "https://genius.com/Lady-gaga-poker-face-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Lola</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_kinks/lola_chords_1058291">Chords</a> <a href="https://genius.com/The-kinks-lola-lyrics">Lyrics</a> </td>
-    <td>The Kinks</td>
-  </tr>
+<tr>
+ <td>Lola</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/the_kinks/lola_chords_1058291" target = "_blank">Chords</a> <a href = "https://genius.com/The-kinks-lola-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr>
-    <td>Seven Nation Army</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_white_stripes/seven_nation_army_chords_52559">Chords</a> <a href="https://genius.com/The-white-stripes-seven-nation-army-lyrics">Lyrics</a> </td>
-    <td>The White Stripes</td>
-  </tr>
+<tr>
+ <td>Seven Nation Army</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/the_white_stripes/seven_nation_army_chords_52559" target = "_blank">Chords</a> <a href = "https://genius.com/The-white-stripes-seven-nation-army-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
 
-  <tr id = "last">
-    <td>Lovefool</td>
-    <td> <a href="https://tabs.ultimate-guitar.com/tab/the_cardigans/lovefool_chords_1869718">Chords</a> <a href="https://genius.com/The-cardigans-lovefool-lyrics">Lyrics</a> </td>
-    <td>The Cardigans</td>
-  </tr>
+<tr>
+ <td>Lovefool</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/the_cardigans/lovefool_chords_1869718" target = "_blank">Chords</a> <a href = "https://genius.com/The-cardigans-lovefool-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Carnival of Rust</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/poets_of_the_fall/carnival_of_rust_chords_350819" target = "_blank">Chords</a> <a href = "https://genius.com/Poets-of-the-fall-carnival-of-rust-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>This is Gospel</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/this_is_gospel_chords_1411370" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-this-is-gospel-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Riptide</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/vance_joy/riptide_chords_1237247" target = "_blank">Chords</a> <a href = "https://genius.com/Vance-joy-riptide-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>New York State of Mind</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/billy_joel/new_york_state_of_mind_chords_1006035" target = "_blank">Chords</a> <a href = "https://genius.com/Billy-joel-new-york-state-of-mind-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Apologize</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/onerepublic/apologize_chords_567175" target = "_blank">Chords</a> <a href = "https://genius.com/Onerepublic-apologize-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Piano Man</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/billy_joel/piano_man_chords_1051336" target = "_blank">Chords</a> <a href = "https://genius.com/Billy-joel-piano-man-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>All of Me</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/john_legend/all_of_me_chords_1248578" target = "_blank">Chords</a> <a href = "https://genius.com/John-legend-all-of-me-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Some Nights</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/fun_/some_nights_chords_1193028" target = "_blank">Chords</a> <a href = "https://genius.com/Fun-some-nights-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Titanium</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/david_guetta/titanium_chords_1098920" target = "_blank">Chords</a> <a href = "https://genius.com/David-guetta-titanium-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Shape of You</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/ed_sheeran/shape_of_you_chords_1928439" target = "_blank">Chords</a> <a href = "https://genius.com/Ed-sheeran-shape-of-you-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Roses</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/shawn_mendes/roses_chords_1877449" target = "_blank">Chords</a> <a href = "https://genius.com/Outkast-roses-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Million Reasons</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/lady_gaga/million_reasons_chords_1884102" target = "_blank">Chords</a> <a href = "https://genius.com/Lady-gaga-million-reasons-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Psycho Killer</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/talking_heads/psycho_killer_chords_1056" target = "_blank">Chords</a> <a href = "https://genius.com/Talking-heads-psycho-killer-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Mr. Brightside</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/the_killers/mr_brightside_chords_202646" target = "_blank">Chords</a> <a href = "https://genius.com/The-killers-mr-brightside-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Victorious</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/victorious_chords_1770649" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-victorious-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Dangerous</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/david_guetta/dangerous_chords_1670060" target = "_blank">Chords</a> <a href = "https://genius.com/Kardinal-offishall-dangerous-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Closer</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/the_chainsmokers/closer_chords_1865744" target = "_blank">Chords</a> <a href = "https://genius.com/The-chainsmokers-closer-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Given and Denied</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/poets_of_the_fall/given_and_denied_chords_941200" target = "_blank">Chords</a> <a href = "https://genius.com/Poets-of-the-fall-given-and-denied-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>Ballad of Mona Lisa</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/the_ballad_of_mona_lisa_chords_1026218" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-the-ballad-of-mona-lisa-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>I Write Sins Not Tragedies</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/i_write_sins_not_tragedies_chords_1862688" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-i-write-sins-not-tragedies-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+
 </table>
 
 <script>
@@ -110,10 +175,8 @@ function updateSearch() {
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     songName = tr[i].getElementsByTagName("td")[0];
-    artistName = tr[i].getElementsByTagName("td")[2];
-    if (songName || artistName) {
-      if ((songName.innerHTML.toUpperCase().indexOf(filter) > -1) || 
-        (artistName.innerHTML.toUpperCase().indexOf(filter) > -1)) {
+    if (songName) {
+      if (songName.innerHTML.toUpperCase().indexOf(filter) > -1){
         tr[i].style.display = "";
       } else {
         tr[i].style.display = "none";
@@ -122,16 +185,6 @@ function updateSearch() {
   }
 }
 
-function populateTable(){
-  for(i = 0; i < 3; i++){
-    var insert = document.getElementById("last");
-    var newRow = insert.parentNode.insertRow(insert.rowIndex + 1);
-    newRow.insertCell(0).innerHTML = i.toString();
-    newRow.insertCell(1).innerHTML = i.toString();
-    newRow.insertCell(2).innerHTML = i.toString();
-  }
-  
-}
 </script>
 
 </body>

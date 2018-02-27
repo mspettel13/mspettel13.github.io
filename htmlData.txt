@@ -1,0 +1,8 @@
+<tr>
+ <td>Ballad of Mona Lisa</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/the_ballad_of_mona_lisa_chords_1026218" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-the-ballad-of-mona-lisa-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
+<tr>
+ <td>I Write Sins Not Tragedies</td><td> <a href = "https://tabs.ultimate-guitar.com/tab/panic_at_the_disco/i_write_sins_not_tragedies_chords_1862688" target = "_blank">Chords</a> <a href = "https://genius.com/Panic-at-the-disco-i-write-sins-not-tragedies-lyrics" target = "_blank">Lyrics</a></td>
+</tr>
+
